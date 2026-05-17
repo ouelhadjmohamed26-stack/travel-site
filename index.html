@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DiscoverMove - Oriental Morocco Boutique Tours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="site-branding">
+        <img class="brand-logo" src="logo.svg" alt="DiscoverMove logo">
+        <div>
+          <a class="logo-text" href="landing.html" data-key="siteTitle">DiscoverMove</a>
+          <p class="site-slogan" data-key="siteSlogan">Discover Oriental Morocco with confidence.</p>
+        </div>
+      </div>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav class="nav-links">
+        <a class="nav-link" href="landing.html" data-key="homeLink">Home</a>
+        <div class="language-selector">
+          <button id="lang-en" class="lang-btn" title="English">EN</button>
+          <button id="lang-fr" class="lang-btn" title="Français">FR</button>
+          <button id="lang-ar" class="lang-btn" title="العربية">AR</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-tour">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow" data-key="heroBadge">Premium day tour</span>
+        <h1 data-key="heroTitle">Tafoughalt & Zegzel luxury experience</h1>
+        <p data-key="heroDesc">A full-day guided discovery from sunrise to sunset with comfort transport, local lunch, and exclusive photo service.</p>
+        <div class="hero-actions">
+          <a class="button" href="#packages" data-key="bookNow">Book now</a>
+          <a class="button button-secondary" href="https://www.instagram.com/discovermove?igsh=MWpwbXEyYTFvZXBrdQ==" target="_blank" rel="noopener" data-key="contactInstagram">Reserve on Instagram</a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="container section-itinerary" id="packages">
+      <div class="section-header">
+        <h2 data-key="itineraryTitle">Day schedule</h2>
+        <p data-key="itineraryDesc">A carefully curated day in Oriental Morocco, crafted to showcase Tafoughalt and Zegzel.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><strong>08:00</strong><span data-key="start">Departure</span></div>
+        <div class="timeline-item"><strong>09:00</strong><span data-key="breakfast">Breakfast</span></div>
+        <div class="timeline-item"><strong>12:00</strong><span data-key="visit">Visit Zegzel</span></div>
+        <div class="timeline-item"><strong>14:00</strong><span data-key="lunch">Traditional lunch</span></div>
+        <div class="timeline-item"><strong>15:00</strong><span data-key="animations">Group games & animations</span></div>
+        <div class="timeline-item"><strong>19:00</strong><span data-key="back">Return</span></div>
+      </div>
+    </section>
+
+    <section class="container section-gallery">
+      <div class="section-header">
+        <h2 data-key="galleryTitle">Experience the journey</h2>
+        <p data-key="galleryDesc">Premium visuals from our tours in the Oriental Morocco region.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="media-card">
+          <img src="images/hiking-in-zegzel-gorge-tafoughalt-morocco.webp" alt="Hiking in Zegzel Gorge Tafoughalt">
+          <p class="media-caption">Hiking through Zegzel Gorge</p>
+        </div>
+        <div class="media-card">
+          <img src="images/grotte-chameau.jpg" alt="Grotte Chameau cave">
+          <p class="media-caption">Chameau Cave entrance</p>
+        </div>
+        <div class="media-card">
+          <img src="images/images.jpg" alt="Moroccan landscape">
+          <p class="media-caption">Scenic Oriental Morocco</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section-testimonials">
+      <div class="section-header">
+        <h2 data-key="testimonialTitle">Traveler reviews</h2>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <p data-key="testimonial1">"A premium journey with every detail handled. The highlight was the lunch and the stunning views."</p>
+          <strong data-key="testimonialAuthor1">Leila, France</strong>
+        </article>
+        <article class="testimonial-card">
+          <p data-key="testimonial2">"The service felt professional and luxurious, exactly what we wanted for our family trip."</p>
+          <strong data-key="testimonialAuthor2">Adam, UK</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section-booking">
+      <div class="section-header">
+        <h2 data-key="bookingTitle">Reservation</h2>
+        <p data-key="bookingDesc">Send your reservation request and our team will contact you quickly.</p>
+      </div>
+      <form id="booking-form" class="booking-form">
+        <div class="form-grid">
+          <label for="name" data-key="formName">Full name</label>
+          <input id="name" name="name" type="text" required>
+          <label for="email" data-key="formEmail">Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="phone" data-key="formPhone">Phone</label>
+          <input id="phone" name="phone" type="tel" required>
+          <label for="date" data-key="formDate">Desired date</label>
+          <input id="date" name="date" type="date" required>
+          <label for="guests" data-key="formGuests">Number of guests</label>
+          <input id="guests" name="guests" type="number" min="1" value="2" required>
+          <label for="message" data-key="formMessage">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Ex: private van required"></textarea>
+        </div>
+        <button type="submit" class="button" data-key="formSubmit">Send request</button>
+        <p class="thanks-message" id="booking-thanks" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="container section-contact">
+      <div class="section-header">
+        <h2 data-key="contactTitle">Contact & Reservations</h2>
+        <p data-key="contactDesc">For bookings and custom packages, contact us on Instagram.</p>
+      </div>
+      <a class="button button-secondary" href="https://www.instagram.com/discovermove?igsh=MWpwbXEyYTFvZXBrdQ==" target="_blank" rel="noopener">@discovermove</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-key="footerText">© DiscoverMove - Oriental Morocco</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

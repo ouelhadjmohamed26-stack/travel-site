@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DiscoverMove - Excursions Orientales haut de gamme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="site-branding">
+        <img class="brand-logo" src="logo.svg" alt="DiscoverMove logo">
+        <div>
+          <a class="logo-text" href="landing.html" data-key="siteTitle">DiscoverMove</a>
+          <p class="site-slogan" data-key="siteSlogan">Discover Oriental Morocco with confidence.</p>
+        </div>
+      </div>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav class="nav-links">
+        <a class="nav-link" href="index.html" data-key="viewTours">Tours</a>
+        <div class="language-selector">
+          <button id="lang-en" class="lang-btn" title="English">EN</button>
+          <button id="lang-fr" class="lang-btn" title="Français">FR</button>
+          <button id="lang-ar" class="lang-btn" title="العربية">AR</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-landing">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow" data-key="heroBadge">Circuits premium</span>
+        <h1 data-key="landingTitle">Voyage haut de gamme à Tafoughalt & Zegzel</h1>
+        <p data-key="landingDesc">Un circuit d'une journée avec transport VIP, guide expert, déjeuner traditionnel et expériences locales authentiques.</p>
+        <div class="hero-actions">
+          <a class="button" href="index.html" data-key="viewTours">Voir nos excursions</a>
+          <a class="button button-secondary" href="https://www.instagram.com/discovermove?igsh=MWpwbXEyYTFvZXBrdQ==" target="_blank" rel="noopener" data-key="contactInstagram">Réservez via Instagram</a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="container section-highlight">
+      <div class="section-header">
+        <h2 data-key="featuresTitle">Pourquoi choisir DiscoverMove ?</h2>
+      </div>
+      <div class="highlight-grid">
+        <div class="highlight-card">
+          <strong data-key="featureTransport">Transport confortable</strong>
+          <p data-key="featureTransportDesc">Véhicule privé et climatisé pour une journée sans stress.</p>
+        </div>
+        <div class="highlight-card">
+          <strong data-key="featureLunch">Déjeuner traditionnel</strong>
+          <p data-key="featureLunchDesc">Cuisine locale authentique dans un lieu charmant.</p>
+        </div>
+        <div class="highlight-card">
+          <strong data-key="featureGuide">Guide accompagnateur</strong>
+          <p data-key="featureGuideDesc">Guide francophone et anglais pour un circuit fluide.</p>
+        </div>
+        <div class="highlight-card">
+          <strong data-key="featurePhoto">Photos souvenirs incluses</strong>
+          <p data-key="featurePhotoDesc">Photos professionnelles pour garder les meilleurs moments.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section-newsletter">
+      <div class="section-header">
+        <h2 data-key="newsletterTitle">Recevez nos offres exclusives</h2>
+      </div>
+      <p class="section-copy" data-key="newsletterDesc">Inscrivez-vous pour recevoir les dernières excursions premium et offres de voyage.</p>
+      <form id="newsletter-form" class="newsletter-form">
+        <div class="newsletter-row">
+          <input id="newsletter-email" type="email" placeholder="Email" aria-label="Email" data-placeholder="newsletterPlaceholder" required>
+          <button type="submit" class="button" data-key="newsletterSubmit">S'inscrire</button>
+        </div>
+        <p class="thanks-message" id="newsletter-thanks" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="container section-media">
+      <div class="section-header">
+        <h2 data-key="mediaTitle">Médias authentiques</h2>
+        <p data-key="mediaDesc">Images réelles de Tafoughalt, Zegzel, Ahfir et Berkane pour inspirer votre voyage.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="media-card">
+          <img src="images/grotte-chameau.jpg" alt="Grotte Chameau cave">
+          <p class="media-caption">Grottes d'exploration</p>
+        </div>
+        <div class="media-card">
+          <img src="images/images (1).jpg" alt="Moroccan mountain village">
+          <p class="media-caption">Villages authentiques du Maroc</p>
+        </div>
+        <div class="media-card">
+          <img src="images/hiking-in-zegzel-gorge-tafoughalt-morocco.webp" alt="Hiking Zegzel Gorge">
+          <p class="media-caption">Randonnée Gorge Zegzel</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section-testimonials">
+      <div class="section-header">
+        <h2 data-key="testimonialTitle">Avis clients</h2>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <p data-key="testimonial1">"Une expérience haut de gamme dans l'Oriental marocain. Tout était parfaitement organisé."</p>
+          <strong data-key="testimonialAuthor1">Mouna, Maroc</strong>
+        </article>
+        <article class="testimonial-card">
+          <p data-key="testimonial2">"Service professionnel, guides exceptionnels et très belles photos souvenirs."</p>
+          <strong data-key="testimonialAuthor2">Youssef, France</strong>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-key="footerText">© DiscoverMove - Oriental Morocco</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
