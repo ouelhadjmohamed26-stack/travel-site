@@ -1,0 +1,63 @@
+{
+  "name": "DiscoverMove",
+  "short_name": "DiscoverMove",
+  "description": "Premium day tours in Oriental Morocco - Tafoughalt & Zegzel",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#D4694C",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hiking-in-zegzel-gorge-tafoughalt-morocco.webp",
+      "sizes": "540x720",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": [
+    "travel",
+    "tourism"
+  ],
+  "shortcuts": [
+    {
+      "name": "View Tours",
+      "short_name": "Tours",
+      "description": "View our premium tour offerings",
+      "url": "/index.html",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Make a Booking",
+      "short_name": "Book",
+      "description": "Book your tour now",
+      "url": "/index.html#packages",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
